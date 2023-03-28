@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3AA9DC"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/img"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listen to intresting,important and useful things!"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+
+
+
+    <TextView
+        android:id="@+id/txtstart"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape1"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+</LinearLayout>>
